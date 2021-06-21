@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+//This is Big Bang Theory all episodes
 // S01-  17
 // S02-  23
 // S03-  23
@@ -40,9 +41,6 @@ int main(void)
                 return e;
 
             }
-        if(e == 25)
-        {
-            i++;
         }
     }
 
