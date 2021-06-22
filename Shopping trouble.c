@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
+//Shopping time
+
 int main(void)
 {
     float i = get_float("Price of goods: ");
@@ -9,6 +11,9 @@ int main(void)
          i = get_float("Price of goods: ");
     }
     float j =get_float("You will pay: ");
+    
+    //Oops out of money
+    
     while(i > j)
     {
         printf("Sir/Ma'am we don't work on credit\n");
