@@ -11,7 +11,7 @@ int main(void)
     float j =get_float("You will pay: ");
     while(i > j)
     {
-        printf("Sir/Ma'am we dont work on credit\n");
+        printf("Sir/Ma'am we don't work on credit\n");
        j = get_float("You will pay: ");
     }
     if (j == i)
