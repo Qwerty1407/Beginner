@@ -13,6 +13,8 @@
 // S10-  24
 // S11-  24
 // S12-  24
+//replace i with the no of season
+//and change value of e to season ep +1(everywhere)
 int main(void)
 {
     //i = season
