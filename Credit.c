@@ -27,5 +27,5 @@ int main(void)
         v = get_int("Enter your random code: ");
     }
 
-    printf("thank you ji\n");
+    printf("Thank you \n");
 }
