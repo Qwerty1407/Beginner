@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<cs50.h>
+
+int main(void)
+{
+    //int s = seconds
+    //int m = mim
+    //int hr = hour
+    //when s = 100 change m by +1
+    //when m = 60 change hr by +1/
+    //when s = 100 set s to 000
+    //when m = 60 set m to 00
+    //when s = 100  do s - s
+    //when m = 60 do m - m
+
+    int s = 001;
+    int m = 00;
+    int hr = 00;
+    while (true)
+    {
+        printf("%i.%i.%i\n", hr, m, s);
+        s++;
+        if(s == 60)
+        {
+            int p = 60;
+            int o = 60;
+          s =  o - p;
+            m = m + 1;
+
+            printf("%i.%i.%i\n", hr, m, s);
+            if(m == 60)
+            {
+                int q = 60;
+                int w = 60;
+                m = q - w;
+                hr = hr + 1;
+
+                printf("%i.%i.%i\n", hr, m, s);
+            }
+
+        }
+    }
+
+}
