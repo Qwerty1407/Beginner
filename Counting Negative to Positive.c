@@ -7,7 +7,7 @@
 int get_negative_int(void);
 int main(void)
 {
-    //Define a fucntion
+    //Define a function
     int x = get_negative_int();
     printf("Negative integers Couting ");
     printf("%i\n", x);
