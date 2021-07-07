@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<cs50.h>
 #include <unistd.h>
+#include<stdlib.h>
 
 int main(void)
 {
-    //when s = 100 change m++
+    //when s = 60 change m++
     //when m = 60 change hr++
     //when s = 60 set s to 000
     //when m = 60 set m to 00
-    //when s = 100  do s - s
+    //when s = 60 do 5 - 5
     int sec = 0;
     int min = 0;
     int hr = 0;
@@ -19,19 +20,22 @@ int main(void)
     while(true)
     {
         sec++;
-        printf("%i.%i.%i\n", hr, min, sec);
+        system("clear");
+        printf("%i : %i : %i\n", hr, min, sec);
         fflush(stdout);
         sleep(1);
         if(sec == 60)
         {
             sec = q - w;
             min++;
-            
+
             if(min == 60)
             {
                 min = q - w;
                 hr++;
             }
         }
+    }
+}
     }
 }
