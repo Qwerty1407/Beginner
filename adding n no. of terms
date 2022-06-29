@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int terms =get_int("How many terms do you want to add/subtract/multiply/divide?");
+
+
+    int actualterms[terms];
+    
+    int sum;
+    for(int i = 1;i<=terms;i++)
+    {
+        actualterms[terms] =get_int("Terms %i\n", i);
+
+        sum = sum + actualterms[terms];
+    }
+    printf("Sum is %i\n", sum);
+
+}
